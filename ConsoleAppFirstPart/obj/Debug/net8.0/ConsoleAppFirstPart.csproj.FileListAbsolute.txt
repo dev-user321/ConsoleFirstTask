@@ -20,3 +20,6 @@ C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\obj\Debu
 C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\obj\Debug\net8.0\ConsoleAppFirstPart.pdb
 C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\obj\Debug\net8.0\ConsoleAppFirstPart.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\obj\Debug\net8.0\ref\ConsoleAppFirstPart.dll
+C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\bin\Debug\net8.0\Controller.dll
+C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\bin\Debug\net8.0\Controller.pdb
+C:\Users\Lenovo\Desktop\C# Quiz\ConsoleAppFirstPart\ConsoleAppFirstPart\obj\Debug\net8.0\ConsoleAppFirstPart.sourcelink.json

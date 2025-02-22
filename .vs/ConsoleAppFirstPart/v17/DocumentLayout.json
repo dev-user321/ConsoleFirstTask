@@ -3,44 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\data\\datalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\data\\datalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9D1CD7B-577C-4D4D-A465-7105FCCF9FEC}|ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\consoleappfirstpart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9D1CD7B-577C-4D4D-A465-7105FCCF9FEC}|ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj|solutionrelative:consoleappfirstpart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\domain\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|solutionrelative:domain\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D05A3F6C-A75C-4D6A-9EF1-3F6D9BE75E03}|Controller\\Controller.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05A3F6C-A75C-4D6A-9EF1-3F6D9BE75E03}|Controller\\Controller.csproj|solutionrelative:controller\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05A3F6C-A75C-4D6A-9EF1-3F6D9BE75E03}|Controller\\Controller.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\controller\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05A3F6C-A75C-4D6A-9EF1-3F6D9BE75E03}|Controller\\Controller.csproj|solutionrelative:controller\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|solutionrelative:domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\domain\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E4745C2-4D22-4B42-ADAD-1C3E7699E630}|Domain\\Domain.csproj|solutionrelative:domain\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09344FC2-14F5-49F1-95AF-CE12F7159C67}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1CD7B-577C-4D4D-A465-7105FCCF9FEC}|ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\consoleappfirstpart\\consoleappfirstpart.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F9D1CD7B-577C-4D4D-A465-7105FCCF9FEC}|ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj|solutionrelative:consoleappfirstpart\\consoleappfirstpart.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\repository\\data\\datalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE64F45-1ABE-4D42-B5CF-860DD6E9E0B7}|Repository\\Repository.csproj|solutionrelative:repository\\data\\datalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9D1CD7B-577C-4D4D-A465-7105FCCF9FEC}|ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj|c:\\users\\lenovo\\desktop\\c# quiz\\consoleappfirstpart\\consoleappfirstpart\\consoleappfirstpart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 23,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,41 +110,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\BookController.cs",
+              "RelativeDocumentMoniker": "Controller\\BookController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\BookController.cs",
+              "RelativeToolTip": "Controller\\BookController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T05:19:13.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T05:18:57.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\IBookService.cs",
+              "RelativeToolTip": "Service\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T05:13:51.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ILibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\ILibraryService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ILibraryService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\ILibraryService.cs",
+              "RelativeToolTip": "Service\\Services\\ILibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T05:11:48.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T04:27:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\LibraryController.cs",
+              "RelativeDocumentMoniker": "Controller\\LibraryController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\LibraryController.cs",
+              "RelativeToolTip": "Controller\\LibraryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T04:11:52.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Helper\\Helper.cs",
+              "RelativeDocumentMoniker": "Service\\Helper\\Helper.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Helper\\Helper.cs",
+              "RelativeToolTip": "Service\\Helper\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T04:07:31.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsoleAppFirstPart",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
+              "RelativeDocumentMoniker": "ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
+              "RelativeToolTip": "ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T04:03:27.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LibraryService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\LibraryService.cs",
               "RelativeDocumentMoniker": "Service\\LibraryService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\LibraryService.cs",
               "RelativeToolTip": "Service\\LibraryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T10:30:54.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "Service\\BookService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\BookService.cs",
               "RelativeToolTip": "Service\\BookService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwBIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T10:24:12.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\IService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\IService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Service\\Services\\IService.cs",
-              "RelativeToolTip": "Service\\Services\\IService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T10:19:23.635Z",
               "EditorCaption": ""
             },
             {
@@ -127,40 +239,39 @@
               "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\BookRepository.cs",
               "RelativeToolTip": "Repository\\BookRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T10:09:25.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LibraryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\LibraryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\LibraryRepository.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\LibraryRepository.cs",
               "RelativeToolTip": "Repository\\LibraryRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAvwB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:56:24.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:56:24.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\IRepository.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\Repositories\\IRepository.cs",
               "RelativeToolTip": "Repository\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:54:23.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "DataList.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Repository\\Data\\DataList.cs",
               "RelativeDocumentMoniker": "Repository\\Data\\DataList.cs",
@@ -168,25 +279,23 @@
               "RelativeToolTip": "Repository\\Data\\DataList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:52:19.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:52:19.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ConsoleAppFirstPart",
+              "DocumentIndex": 17,
+              "Title": "ConsoleAppFirstPart.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
               "RelativeDocumentMoniker": "ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
               "RelativeToolTip": "ConsoleAppFirstPart\\ConsoleAppFirstPart.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-21T09:50:49.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:50:49.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "BaseModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Common\\BaseModel.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\BaseModel.cs",
@@ -194,12 +303,11 @@
               "RelativeToolTip": "Domain\\Common\\BaseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:49:54.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:49:54.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Library.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Models\\Library.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Library.cs",
@@ -207,44 +315,41 @@
               "RelativeToolTip": "Domain\\Models\\Library.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:48:59.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:48:59.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Models\\Book.cs",
               "RelativeToolTip": "Domain\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:48:20.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:48:20.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Domain",
+              "DocumentIndex": 19,
+              "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-21T09:48:03.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T09:48:03.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppFirstPart\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\ConsoleAppFirstPart\\Program.cs",
               "RelativeToolTip": "ConsoleAppFirstPart\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:46:42.382Z",
               "EditorCaption": ""

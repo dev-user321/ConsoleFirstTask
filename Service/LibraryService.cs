@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    public class LibraryService : IService<Library>
+    public class LibraryService : ILibraryService
     {
-        private LibraryRepository _repository;  
+        private IRepository<Library> _repository;  
 
         public LibraryService()
         {
@@ -20,6 +20,8 @@ namespace Service
         }
         public Library Add(Library t)
         {
+            if (t == null) return null;
+
             _repository.Add(t);
             return t;
         }
@@ -46,5 +48,22 @@ namespace Service
             _repository.Update(id, t);
             return t;
         }
-    }
+
+        public List<Library> Search(string search)
+        {
+            List<Library> libraries = new List<Library>();
+            var result = GetAll();
+            foreach (var item in result) {
+                if (item.Name.Trim().ToLower().StartsWith(search.Trim().ToLower()))
+                {
+                    libraries.Add(item);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            return libraries;
+        }
+    }               
 }

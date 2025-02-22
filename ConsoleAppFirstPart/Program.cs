@@ -1,6 +1,8 @@
 ﻿using System;
+using Controller;
 using Domain.Models;
 using Service;
+using Service.Helper;
 
 namespace ConsoleAppFirstPart
 {
@@ -8,11 +10,11 @@ namespace ConsoleAppFirstPart
     {
         static void Main(string[] args)
         {
-            LibraryService libraryService = new LibraryService();
-
+            LibraryController libraryController = new LibraryController();
+            BookController bookController = new BookController();   
+            GetMenu();
             while (true)
             {
-                Console.WriteLine("1) Add Library\n2) Update Library\n3) Delete Library\n4) GetById Library\n5) Get All Library\n");
                 Console.Write("Seçiminizi edin: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int secim))
@@ -20,42 +22,53 @@ namespace ConsoleAppFirstPart
                     Console.WriteLine("Yanlış seçim etdiniz!");
                     continue;
                 }
-
-                switch (secim)
+                switch(secim)
                 {
-                    case 1:
-                        Console.Write("Kitabxana adını daxil edin: ");
-                        string name = Console.ReadLine();
-
-                        Console.Write("Kitabxanada olan oturacaqların sayı: ");
-                        if (!int.TryParse(Console.ReadLine(), out int seatsCount))
-                        {
-                            Console.WriteLine("Yanlış dəyər daxil etdiniz!");
-                            continue;
-                        }
-
-                        Library library = new Library()
-                        {
-                            Name = name,
-                            SeatsCount = seatsCount
-                        };
-
-                        libraryService.Add(library);
-                        Console.WriteLine("Kitabxana uğurla əlavə edildi!");
+                    case (int)MenuTypes.CreateLibrary:
+                        libraryController.Create();
                         break;
-
-                    case 5:
-                        var result = libraryService.GetAll();
-                        foreach (var item in result)
-                        {
-                            Console.WriteLine(item);
-                        }
+                    case (int)MenuTypes.UpdateLibrary:
+                        libraryController.Update();
                         break;
-                    default:
-                        Console.WriteLine("Yanlış seçim etdiniz!");
+                    case (int)MenuTypes.DeleteLibrary:
+                        libraryController.Delete();
+                        break;
+                    case (int)MenuTypes.GetAllLibrary: 
+                        libraryController.GetAll();
+                        break;
+                    case (int)MenuTypes.GetLibraryById:
+                        libraryController.GetById();
+                        break;
+                    case (int)MenuTypes.SearchForLibrary: 
+                        libraryController.Search();
+                        break;
+                    case (int)MenuTypes.CreateBook:
+                        bookController.Create();
+                        break;
+                    case (int)MenuTypes.UpdateBook:
+                        bookController.Update();
+                        break;
+                    case (int)MenuTypes.DeleteBook:
+                        bookController.Delete();
+                        break;
+                    case (int)MenuTypes.GetAllBooks:
+                        bookController.GetAll();
+                        break;
+                    case (int)MenuTypes.GetBookById:
+                        bookController.GetBookById();
+                        break;
+                    case (int)MenuTypes.SearchForBook:
+                        bookController.Search();
                         break;
                 }
             }
+        }
+        static void GetMenu()
+        {
+            Console.WriteLine("1)Create Library , 2)Update Library , 3)Delete Library , " +
+                "4)Get All Library , 5) Get Library By Id , 6)Search for Library\n");
+            Console.WriteLine("7)Create Book , 8)Update Book , 9)Delete Library , " +
+                "10)Get All Library , 11) Get Library By Id , 12)Search for Library\n");
         }
     }
 }

@@ -9,6 +9,20 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "Controller/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Controller.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Controller.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -129,6 +143,11 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
+    "Controller/1.0.0": {
+      "type": "project",
+      "path": "../Controller/Controller.csproj",
+      "msbuildProject": "../Controller/Controller.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -147,6 +166,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Controller >= 1.0.0",
       "Domain >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.21.0",
       "Service >= 1.0.0"
@@ -185,6 +205,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\Controller.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Controller\\Controller.csproj"
+            },
             "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\Lenovo\\Desktop\\C# Quiz\\ConsoleAppFirstPart\\Domain\\Domain.csproj"
             },

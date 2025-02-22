@@ -10,20 +10,27 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    public class BookService : IService<Book>
+    public class BookService : IBookService
     {
-        private BookRepository _repository;
-
+        private IRepository<Book> _repository;
+        private IRepository<Library> _libraryRepository;
+        static int count = 0;
         public BookService()
         {
             _repository = new BookRepository();
+            _libraryRepository = new LibraryRepository();
+        }
+        public Book Create(int id, Book book)
+        {
+            var library = _libraryRepository.GetById(id);
+            book.Id = count++;
+            book.Library = library;
+
+            _repository.Add(book);
+            return book;
+            
         }
 
-        public Book Add(Book t)
-        {
-            _repository.Add(t);
-            return t;
-        }
         public Book Delete(int id)
         {
             var result = _repository.GetById(id);
@@ -31,7 +38,7 @@ namespace Service
             return result;
         }
 
-        public List<Book> GetAll()
+        public List<Book> GetAllBooks()
         {
             return _repository.GetAll();
         }
@@ -40,11 +47,31 @@ namespace Service
         {
             return _repository.GetById(id);
         }
-
-        public Book Update(int id , Book book)
+        public Book Update(int id,Book book,int libraryId)
         {
-            _repository.Update(id, book);
+            var library = _libraryRepository.GetById(libraryId);
+            book.Library = library;
+            _repository.Update(id, book);   
             return book;
         }
+        public List<Book> Search(string search)
+        {
+            List<Book> libraries = new List<Book>();
+            var result = GetAllBooks();
+            foreach (var item in result)
+            {
+                if (item.Name.Trim().ToLower().StartsWith(search.Trim().ToLower()))
+                {
+                    libraries.Add(item);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            return libraries;
+        }
+
+        
     }
 }

@@ -14,8 +14,15 @@ namespace Repository
         private static int count = 0;
         public void Add(Library t)
         {
-            t.Id = count++;
-            DataList<Library>._datas.Add(t);
+            if(t == null)
+            {
+                Console.WriteLine("Library is not null !");
+            }
+            else
+            {
+                t.Id = count++;
+                DataList<Library>._datas.Add(t);
+            }
         }
 
         public void Delete(int id)
@@ -36,6 +43,8 @@ namespace Repository
         {
             return DataList<Library>._datas.FirstOrDefault(l => l.Id == id);
         }
+
+      
 
         public void Update(int id, Library updatedLibrary)
         {
